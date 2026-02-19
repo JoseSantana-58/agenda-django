@@ -15,6 +15,8 @@
   
    "window.zoomLevel": 0,
   "python.languageServer": "Pylance", // ms-python.vscode-pylance
+
+
   "python.testing.unittestEnabled": false, // ms-python.python
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": [], // -x to bail
@@ -26,7 +28,8 @@
   ],
   "python.formatting.autopep8Args": ["--indent-size=4"],
  // "python.defaultInterpreterPath": "venv/bin/python",
-  "[python]": {
+  "[python]": 
+  {
     "editor.defaultFormatter": "ms-python.python", // ms-python.python
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
@@ -73,7 +76,5 @@
   },
   "explorer.confirmDelete": false,
   "workbench.editor.empty.hint": "hidden"
-
-
 
 }
